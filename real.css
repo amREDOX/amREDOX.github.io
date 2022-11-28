@@ -1,0 +1,130 @@
+body {
+    margin: 0px;
+    font-family: 'Sacramento', cursive;
+    text-align: center;
+    color: #40514E;
+
+}
+
+.top-container {
+    background-color: rgb(224, 247, 245);
+    position: relative;
+    padding-top: 50px;
+}
+
+hr {
+    border-style: none;
+    border-top-style: dotted;
+    border-color: grey;
+    border-width: 5px;
+    width: 5%;
+}
+
+.h1 {
+    font-family: 'Merriweather', serif;
+    color: rgb(6, 167, 145);
+}
+
+.h2 {
+    font-family: 'Sacramento', cursive;
+    color: rgb(6, 167, 145);
+    margin-top: 50px;
+}
+
+.img1 {
+    position: absolute;
+    top: 50px;
+    right: 20%;
+}
+
+.img2 {
+    position: absolute;
+    left: 150px;
+}
+
+.giphy {
+    float: left;
+    margin-right: 40px;
+}
+
+.me {
+    float: right;
+    margin-left: 30px;
+}
+
+.middle-container {
+    text-align: center;
+    margin-bottom: 50px;
+    padding-top: 50px;
+
+}
+
+.bottom-container {
+    text-align: center;
+    background-color: rgb(6, 167, 145);
+
+}
+
+.myskill {
+    color: rgb(19, 55, 218);
+    font-family: 'Sacramento', cursive;
+}
+
+.web {
+    color: rgb(19, 55, 218);
+    font-family: 'Sacramento', cursive;
+}
+
+.game {
+    color: rgb(19, 55, 218);
+    font-family: 'Sacramento', cursive;
+}
+
+.skill-row {
+    width: 50%;
+    margin: 100px auto 100px auto;
+    font-family: 'Merriweather', serif;
+    line-height: 2;
+    text-align: left;
+}
+
+.contact {
+
+    display: inline-block;
+    background-color: rgb(6, 167, 145);
+    margin-bottom: 30px;
+    border-radius: 6px;
+    padding: 8px;
+}
+
+.btn {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.bottom-container {
+    padding: 30px;
+}
+
+.footer-link {
+    text-decoration: none;
+    color: rgb(6, 75, 66);
+}
+
+a:hover {
+    color: aliceblue;
+}
+
+.pp {
+    color: aliceblue;
+}
+
+.p {
+    margin: auto;
+    margin-bottom: 100px;
+    width: 30%;
+}
+
+p {
+    line-height: 2;
+}
