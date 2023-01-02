@@ -2,7 +2,7 @@
 <h1 align="center">Hi 👋, I'm Biswadip Roy</h1>
 <h3 align="center">A passionate Full Stack Web Developer from India</h3>
 
-<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=amredox" alt="amredox" /></a> </p>
+<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=amREDOX" alt="amredox" /></a> </p>
 
 - 🌱 I’m currently learning **Mongo DB**
 
@@ -11,7 +11,7 @@
 <a href="https://codepen.io/redoxpub" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/codepen.svg" alt="redoxpub" height="30" width="40" /></a>
 <a href="https://twitter.com/biswadi28831068" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="biswadi28831068" height="30" width="40" /></a>
 <a href="https://linkedin.com/in/biswadip-roy" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="biswadip-roy" height="30" width="40" /></a>
-<a href="https://codesandbox.com/amredox" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/codesandbox.svg" alt="amredox" height="30" width="40" /></a>
+<a href="https://codesandbox.com/amREDOX" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/codesandbox.svg" alt="amredox" height="30" width="40" /></a>
 <a href="https://www.youtube.com/c/yours opinion" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/youtube.svg" alt="yours opinion" height="30" width="40" /></a>
 </p>
 
