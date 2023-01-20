@@ -1,12 +1,336 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <h1>hi</h1>
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <!-- =====BOX ICONS===== -->
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+        <script
+        src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js">
+        </script>
+
+        <link
+        rel="stylesheet"
+        href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css"
+        />
+        <title>Biswadip Roy</title>
+    </head>
+    <body >
+        <!--===== HEADER =====-->
+        <header class="l-header">
+            <nav class="nav bd-grid">
+                <div>
+                    <a href="#" class="nav__logo">Biswadip Roy</a>
+                </div>
+
+                <div class="nav__menu" id="nav-menu" >
+                    <ul class="nav__list">
+                        <li class="nav__item" style="color: aliceblue;"><a style="color: aliceblue;" href="#home" class="nav__link active">Home</a></li>
+                        <li class="nav__item" style="color: aliceblue;"><a style="color: aliceblue;" href="#about" class="nav__link">About</a></li>
+                        <li class="nav__item" style="color: aliceblue;"><a style="color: aliceblue;" href="#education" class="nav__link">Education</a></li>
+                        <li class="nav__item" style="color: aliceblue;"><a style="color: aliceblue;" href="#skills" class="nav__link">Skills</a></li>
+                        <li class="nav__item" style="color: aliceblue;"><a style="color: aliceblue;" href="#work" class="nav__link">Projects</a></li>
+                        <li class="nav__item" style="color: aliceblue;"><a style="color: aliceblue;" href="#contact" class="nav__link">Contact</a></li>
+                        <li class="nav__item" style="color: aliceblue;"><a target="_blank" style="color: aliceblue;" href="https://drive.google.com/file/d/1HUBJ5XFQvv57-J1SBkPvp6UqsbGK-n8p/view?usp=share_link" class="nav__link">Resume</a></li>
+                        
+                    </ul>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-menu'></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="l-main">
+            <!--===== HOME =====-->
+            <section style="background-image: url('assets/img/maingif.1646021.gif'); background-repeat: no-repeat;
+                            background-attachment: fixed;
+                            background-size: cover;"  class="home bd-grid" id="home">
+                <div style="text-align: center;font-family: 'Waiting for the Sunrise', cursive;" class="home__data typewriter typedtext">
+                    <h1 class="home__title">Welcome</h1>
+                    <br>
+                    <br>
+                    <br>
+                    <h1  class="home__title effect">I'am Biswadip,</h1>
+                   
+                    
+                    <h1 class="home__title">Full Stack Web Developer</h1>
+
+                    <a href="#contact" class="button">Contact</a>
+                </div>
+
+                <div style="display: flex;justify-content: center;" class="home__social">
+                    <div style="margin-left: 2.5%;">
+                    <a target="_blank" href="https://www.linkedin.com/in/biswadip-roy-897b28220/" class="home__social-icon"><i class='bx bxl-linkedin'></i></a>
+                    <a target="_blank" href="https://twitter.com/Biswadi28831068" class="home__social-icon"><i class='bx bxl-twitter' ></i></a>
+                    <a target="_blank" href="https://github.com/amREDOX" class="home__social-icon"><i class='bx bxl-github' ></i></a>
+                    </div>
+                </div>
+
+                <!-- <div style="width: 38%;" class="home__img">
+                    
+                        <img src="assets/img/gif.gif" alt="">
+                  
+                </div> -->
+                
+            </section>
+
+            <!--===== ABOUT =====-->
+            <section style="background-image: url('assets/img/gif.gif'); background-repeat: no-repeat;
+                            background-attachment: fixed;
+                            background-size: cover;" class="about section " id="about">
+                <h2 class="section-title" style="color: black;">About</h2>
+
+                <div   class="about__container bd-grid">
+                    <div class="about__img">
+                        <img src="assets/img/about.jpg" alt="">
+                    </div>
+                    
+                    <div>
+                        <h2 class="about__subtitle">I'am Biswadip</h2>
+                        <p class="about__text">A self-motivated, hard-working, and ambitious Web Developer with proficiency
+                                            in HTML, CSS, and Javascript. Problem-solving mindset and the ability to perform
+                                            well in collaboration. 1300+ hours of coding and hands-on experience in
+                                            developing 4 fully functional websites. Looking forward to working as an
+                                            accountable and competent employee in an exciting tech company.</p>           
+                    </div>                                   
+                </div>
+            </section>
+            <section style="background-image: url('assets/img/book.jpg'); background-repeat: no-repeat;
+                            background-attachment: fixed;
+                            background-size: cover;" class="about section " id="education">
+                <h2 class="section-title" style="color: black;">Education</h2>
+
+                <div class="about__container bd-grid">
+                    <div>
+                        <h2 class="about__subtitle">Full Stack Web Development</h2>
+                        <p class="about__text">Masai School (Full Time)<br> <br>2022-Present</p>           
+                    <br>
+                        <h2 class="about__subtitle">Graduation</h2>
+                        <p class="about__text">Ananda Chandra College<br><br> 2022-Present</p>     
+                        <br>
+                        <h2 class="about__subtitle">Higher Education</h2>
+                        <p class="about__text">Jalpaiguri Zilla School<br><br> 2009-2021</p>      
+                    </div>                                
+                </div>
+            </section>
+
+            <!--===== SKILLS =====-->
+            <section style="background-image: url('assets/img/bom.gif'); background-repeat: no-repeat;
+                            background-attachment: fixed;
+                            background-size: cover;" class="skills section" id="skills">
+                <h2 class="section-title" style="color: black;">Technical Skills</h2>
+                   
+                        <div class="skills-wrapper">
+                            <div id="gridBox">
+                                <img
+                                    src="assets/img/html.png"
+                                    alt=""
+                                    loading="lazy"
+                                    class="icon icon-card"
+                                    width="100%"
+                                />
+                                <img
+                                    src="assets/img/css.png"
+                                    alt=""
+                                    loading="lazy"
+                                    class="icon icon-card"
+                                    width="100%"
+
+                                />
+                                <img
+                                    src="assets/img/javascript.png"
+                                    alt=""
+                                    loading="lazy"
+                                    class="icon icon-card"
+                                    width="100%"
+                                />
+                                <img
+                                    src="assets/img/react.png"
+                                    alt=""
+                                    loading="lazy"
+                                    class="icon icon-card"
+                                />
+                                <img
+                                    src="assets/img/bootstrap-logo.jpg"
+                                    alt=""
+                                    loading="lazy"
+                                    class="icon icon-card"
+                                    width="100%"
+                                />
+                                <img
+                                    src="assets/img/25231.png"
+                                    alt=""
+                                    loading="lazy"
+                                    class="icon icon-card"
+                                    width="100%"
+                                />
+                                <img
+                                    src="assets/img/nextjs.png"
+                                    alt=""
+                                    loading="lazy"
+                                    class="icon icon-card"
+                                    width="100%"
+                                />
+                                <img
+                                    src="assets/img/typescript-2.png"
+                                    alt=""
+                                    loading="lazy"
+                                    class="icon icon-card"
+                                    width="100%"
+                                />
+                                <img
+                                    src="assets/img/redux.png"
+                                    alt=""
+                                    loading="lazy"
+                                    class="icon icon-card"
+                                    width="100%"
+                                />
+                                <img
+                                    src="assets/img/net.png"
+                                    alt=""
+                                    loading="lazy"
+                                    class="icon icon-card"
+                                    width="100%"
+                                />
+                                <img
+                                    src="assets/img/node.png"
+                                    alt=""
+                                    loading="lazy"
+                                    class="icon icon-card"
+                                    width="100%"
+                                />
+                                <img
+                                    src="assets/img/chakra.png"
+                                    alt=""
+                                    loading="lazy"
+                                    class="icon icon-card"
+                                    width="100%"
+                                />
+                            
+                            </div>
+                 
+                    </div>
+            </section>
+
+
+            <!--===== WORK =====-->
+            <section class="work section" id="work">
+                <h2 class="section-title" style="color: black;">Projects</h2>
+
+                <div style="text-align: center; border-radius:15px;box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;" class="work__container bd-grid project_div">
+                    <div>
+                        <img style="margin-bottom:10px ;border: 1px solid grey;" width="100%" height="auto" src="assets/img/Screenshot (587).png" alt="">
+                        <p style="font-size: 15px;" class="about__text">SkinStore is an authorized retailer to 100s of premium beauty brands across skin, makeup and hair including SkinCeuticals, Dermalogica, Caudalie</p>
+                        <a target="_blank" style="margin: 20px;background-color:rgb(99, 24, 170);" href="https://github.com/stormyvikrant/ProjectSkinStore" class="button">Code</a><a target="_blank" class="button" style="background-color:rgb(99, 24, 170);" href="https://skin-store-clone-three.vercel.app/">Live</a>
+                    </div>
+                    <div>
+                        <img style="margin-bottom:10px ;border: 1px solid grey;" width="100%" height="auto" src="assets/img/cp.png" alt="">
+                        <p style="font-size: 15px;" class="about__text">Campaign Monitor is a global technology company that provides an email marketing
+platform that’s easy to use yet extremely powerful.</p>
+                        <a target="_blank" style="margin: 20px;background-color:rgb(99, 24, 170);" href="https://github.com/PriyanshuPatil/native-order-609" class="button">Code</a><a target="_blank" class="button" style="background-color:rgb(99, 24, 170);" href="https://incandescent-dusk-dc6fe6.netlify.app/home.html">Live</a>
+                    </div>
+                    <div>
+                        <img style="margin-bottom:10px ;border: 1px solid grey;" width="100%" height="auto" src="assets/img/dc.png" alt="">
+                        <p style="font-size: 15px;" class="about__text">Deccan Chronicle Holdings Limited (DCHL) publishes the largest circulated English newspaper in South India -- Deccan Chronicle.</p>
+                        <a target="_blank" style="margin: 20px;background-color:rgb(99, 24, 170);" href="https://github.com/amREDOX/mountainous-push-1678" class="button">Code</a><a target="_blank" class="button" style="background-color:rgb(99, 24, 170);" href="https://sweet-dodol-129dd9.netlify.app/">Live</a>
+                    </div>
+                  
+                </div>
+            </section>
+
+            <!-- GITHUB -->
+
+            <section style="text-align: center;" class="about section " id="github">
+                <h2 class="section-title" style="color: black;">Github</h2>
+                <h2 class="about__subtitle">Username:  <a target="_blank" href="https://github.com/amREDOX">   amREDOX</a></h2>
+                <br>
+                <br>
+
+                <div   class="calender__container ">
+                    <div class="calendar">
+                        <!-- Loading stuff -->
+                        Loading the data just for you.
+                    </div>
+
+                    <script>
+                        GitHubCalendar(".calendar", "amREDOX");
+
+                        // or enable responsive functionality:
+                        GitHubCalendar(".calendar", "amREDOX", { responsive: true });
+
+                        // Use a proxy
+                        GitHubCalendar(".calendar", "amREDOX", {
+                        proxy (username) {
+                            return fetch(`https://your-proxy.com/github?user=${amREDOX}`)
+                        }
+                        }).then(r => r.text())
+                    </script>
+                    <br>
+                    <br>
+                    <p><img class="center" src="https://github-readme-streak-stats.herokuapp.com/?user=amREDOX&" alt="amredox" /></p>
+                                                      
+                </div>
+            </section>
+
+             
+
+            
+
+            <!--===== CONTACT =====-->
+            <section style="background-image: url('assets/img/maingif.1646021.gif'); background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;" class="contact section" id="contact">
+                <h2 class="section-title" style="color: black;">Contact</h2>
+
+                <div class="contact__container bd-grid">
+                     
+                     <h3 class="about__subtitle">Biswadip Roy</h3>
+                     
+                     <h3 class="about__subtitle">Email</h3>
+                     <p class="about__text">biswadip.jpg2003@gmail.com</p>
+                     
+                     
+                     <h3 class="about__subtitle">Phone No.</h3>
+                     <p class="about__text">+91 7364011549</p>
+                     <h3 class="about__subtitle">Location</h3>
+                     <p class="about__text">West Bengal, India</p>
+                     
+                     
+                    <form action="" class="contact__form">
+                        <input type="text" placeholder="Name" class="contact__input">
+                        <input type="mail" placeholder="Email" class="contact__input">
+                        <textarea name="" id="" cols="0" rows="10" class="contact__input"></textarea>
+                        <div style="display: grid;justify-content: center;align-items: center;">
+                        <input style="background-color:rgb(99, 24, 170);" type="button" value="Submit" class="contact__button button">
+                        </div>
+                    </form>
+                </div>
+            </section>
+        </main>
+
+        <!--===== FOOTER =====-->
+        <footer  class="footer">
+            <p class="footer__title">Biswadip Roy</p>
+            <div class="footer__social">
+                <a target="_blank" href="https://github.com/amREDOX" class="footer__icon"><i class='bx bxl-github' ></i></a>
+                <a target="_blank" href="https://www.linkedin.com/in/biswadip-roy-897b28220/" class="footer__icon"><i class='bx bxl-linkedin' ></i></a>
+                <a target="_blank" href="https://twitter.com/Biswadi28831068" class="footer__icon"><i class='bx bxl-twitter' ></i></a>
+                <a target="_blank" href="https://www.youtube.com/channel/UCDm6onX9tYCYvE2l_O0Vbrg" class="footer__icon"><i class='bx bxl-youtube' ></i></a>
+            </div>
+            
+        </footer>
+
+
+        <!--===== SCROLL REVEAL =====-->
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+        <!--===== MAIN JS =====-->
+        <script src="assets/js/main.js"></script>
+        <script src="assets/js/type.js"></script>
+    </body>
 </html>
