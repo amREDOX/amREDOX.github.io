@@ -261,31 +261,23 @@ platform that’s easy to use yet extremely powerful.</p>
 
             <!-- GITHUB -->
 
-            <section  style="text-align: center; " class="about section " id="github">
+            <section  style="text-align: center; " >
                 <h2 class="section-title" style="color: black;">Github</h2>
                 <h2 class="about__subtitle">Username:  <a target="_blank" href="https://github.com/amREDOX">   amREDOX <i class='bx bxl-github' ></i></a></h2>
                 <br>
                 <br>
 
-                <div style="width: 100%;"  class="calender__container ">
-                    <div style="width: 100%;" class="calendar">
-                        <!-- Loading stuff -->
-                        Loading the data just for you.
-                    </div>
+               
+                    <div class="calendar">
+    <!-- Loading stuff -->
+    Loading the data just for you.
+</div>
 
-                    <script>
-                        GitHubCalendar(".calendar", "amREDOX");
-
-                        // or enable responsive functionality:
-                        GitHubCalendar(".calendar", "amREDOX", { responsive: true });
-
-                        // Use a proxy
-                        GitHubCalendar(".calendar", "amREDOX", {
-                        proxy (username) {
-                            return fetch(`https://your-proxy.com/github?user=${amREDOX}`)
-                        }
-                        }).then(r => r.text())
-                    </script>
+<script>
+    GitHubCalendar(".calendar", "amREDOX");
+    // or enable responsive functionality
+    GitHubCalendar(".calendar", "amREDOX", { responsive: true });
+</script>
                     <br>
                     <br>
                     <p><img class="center" src="https://github-readme-streak-stats.herokuapp.com/?user=amREDOX&" alt="amredox" /></p>
